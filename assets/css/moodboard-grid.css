@@ -1,0 +1,16 @@
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two equal columns that sits next to each other */
+.grid-column {
+  flex: 50%;
+}
+
+.grid-column img {
+  vertical-align: middle;
+}
+.grid-img {
+  width: 100%;
+}
