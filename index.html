@@ -2,7 +2,6 @@
 <html lang="en">
 
     <head>
-        
         <meta charset="utf-8" />
         <title>Prototype | Scanteak Wansuey</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +19,17 @@
         <!-- App Css-->
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
+        <style>
+            @media only screen and (max-width: 768px) {
+                .home {
+                    padding: 60px 0 35px 0;
+                }
+            }
+        </style>
     </head>
 
     <body>
-
     <!-- <body data-layout="horizontal"> -->
-
         <!-- Begin page -->
         <div id="layout-wrapper">
             <header id="page-topbar">
@@ -58,7 +62,6 @@
                     </div>
 
                     <div class="d-flex">
-
                         <div class="dropdown d-inline-block d-lg-none ms-2">
                             <button type="button" class="btn header-item" id="page-header-search-dropdown"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -92,9 +95,7 @@
 
             <!-- ========== Left Sidebar Start ========== -->
             <div class="vertical-menu">
-
                 <div data-simplebar class="h-100">
-
                     <!--- Sidemenu -->
                     <div id="sidebar-menu">
                         <!-- Left Menu Start -->
@@ -132,38 +133,38 @@
             <!-- Start right Content here -->
             <!-- ============================================================== -->
             <div class="main-content">
-                    <!-- start page title -->
-                    <div class="auth-bg pt-md-5 p-4 d-flex">
-                        <div class="bg-overlay bg-primary"></div>
-                        <ul class="bg-bubbles">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <!-- end bubble effect -->
-                        <div class="row justify-content-center align-items-center">
-                            <div class="col-xl-8">
-                                <img src="assets/images/teaktalks-large.png">
-                                <h1 style="color: white;">Welcome to TeakTalks: Scanteak's Gateway to Inspiring Education and Design</h1>
-                                <p style="color: white;">Welcome to TeakTalks, a revolutionary educational content hub crafted by PROID T48 Team 5. Dive into the captivating world of Scanteak’s furniture, artfully arranged by color in mesmerizing mood boards. Beyond the visual feast, TeakTalks is a treasure trove of curated content, featuring insightful articles contributed by Scanteak’s cherished customers and informative pieces from reputable sources.</p>
-                                <h2 style="color: white;">What Awaits You:</h2>
-                                <ul style="color: white;">
-                                    <li><strong>Mood Boards of Distinction</strong>: Immerse yourself in the artful display of Scanteak’s furniture, thoughtfully organized to showcase the beauty of each piece based on color palettes.</li>
-                                    <li><strong>Curated Insights</strong>: Explore curated content that goes beyond furniture, featuring articles written by Scanteak’s community and informative pieces from trusted sources, offering a holistic approach to education and design.</li>
-                                    <li><strong>Exclusive Blog Posts</strong>: Delve into the minds of Scanteak’s team through our exclusive blog posts. Gain firsthand insights into our world, from maintaining your precious pieces to how we ensure sustainability here at Scanteak.</li>
-                                </ul>
-                                <i class="bx bxs-quote-alt-left text-success display-6"></i>
-                                <p class="font-size-20" style="color: white;">At TeakTalks, we don’t just provide information; we craft an experience. Join us on this educational journey where design meets knowledge, and inspiration knows no bounds.</p>
-                            </div>
+                <!-- start page title -->
+                <div class="auth-bg pt-md-5 p-4 d-flex">
+                    <div class="bg-overlay bg-primary"></div>
+                    <ul class="bg-bubbles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <!-- end bubble effect -->
+                    <div class="row justify-content-center align-items-center home">
+                        <div class="col-xl-8">
+                            <img src="assets/images/teaktalks-large.png">
+                            <h1 style="color: white;">Welcome to TeakTalks: Scanteak's Gateway to Inspiring Education and Design</h1>
+                            <p style="color: white;">Welcome to TeakTalks, a revolutionary educational content hub crafted by PROID T48 Team 5. Dive into the captivating world of Scanteak’s furniture, artfully arranged by color in mesmerizing mood boards. Beyond the visual feast, TeakTalks is a treasure trove of curated content, featuring insightful articles contributed by Scanteak’s cherished customers and informative pieces from reputable sources.</p>
+                            <h2 style="color: white;" class="description">What Awaits You:</h2>
+                            <ul style="color: white;" class="description">
+                                <li><strong>Mood Boards of Distinction</strong>: Immerse yourself in the artful display of Scanteak’s furniture, thoughtfully organized to showcase the beauty of each piece based on color palettes.</li>
+                                <li><strong>Curated Insights</strong>: Explore curated content that goes beyond furniture, featuring articles written by Scanteak’s community and informative pieces from trusted sources.</li>
+                                <li><strong>Exclusive Blog Posts</strong>: Delve into the minds of Scanteak’s team through our exclusive blog posts, such as how we ensure sustainability here at Scanteak.</li>
+                            </ul>
+                            <i class="bx bxs-quote-alt-left text-success display-6 quote"></i>
+                            <p class="quote" style="color: white; font-size: 20px;">At TeakTalks, we don’t just provide information; we craft an experience. Join us on this educational journey where design meets knowledge, and inspiration knows no bounds.</p>
                         </div>
                     </div>
+                </div>
             </div>
             <!-- End Page-content -->
                 
