@@ -44,7 +44,7 @@
 
 @media (max-width: 767px) {
   .gallery__overlay {
-    font-size: 7px; /* Adjust the font size for better readability on smaller screens */
+    font-size: 6px; /* Adjust the font size for better readability on smaller screens */
   }
 
   .gallery__overlay p {
